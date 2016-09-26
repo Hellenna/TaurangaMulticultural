@@ -1,9 +1,9 @@
 body {
-    background-color: lightgrey;
+    background-color: #f6f3ee;
 }
 
 nav ul {
-    background-color: #2D2E2E; 
+    background-color:  #739900; 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,7 +13,23 @@ nav ul {
 
 li {
     float: right;
+}
 
+li.leftcol
+{
+    float:left;
+    text-decoration: none;
+    color: papayawhip;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;       
+}
+
+a.leftcol{
+    background-color: #739900;
+    padding: 0px;
+}
+
+li a.leftcol:hover{
+    background-color: #739900;
 }
 
 li a {
@@ -22,16 +38,25 @@ li a {
 }
 
 li a:hover {
-    background-color: #252626;
+    background-color: #1a0f00;
 }
 
 nav a {
     display: block;  
     padding: 25px;
-    background-color: #2D2E2E;  
+    background-color: #331f00;  
     color: papayawhip;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
     text-decoration: none;
 }
+
+nav img {
+    height: 72px;
+}
+
+nav h1 {
+    margin: 19px;
+}
+
