@@ -1,6 +1,8 @@
-body {
-    background-color: #f6f3ee;
-}
+
+
+/******************/
+/* Navigation Bar */
+/******************/
 
 nav ul {
     background-color:  #739900; 
@@ -60,3 +62,27 @@ nav h1 {
     margin: 19px;
 }
 
+/************************/
+/*   Body of the page   */
+/************************/
+
+body {
+    background-color: #f6f3ee;
+}
+
+.home_page_slogan
+{
+    height: 400px;
+    background: -webkit-gradient(linear, center top, center bottom, from(#f2e8d0), to(#c6c3bc));
+    background: -webkit-linear-gradient(top to bottom, #f2e8d0, #c6c3bc);
+    background: -moz-linear-gradient(top to bottom, #f2e8d0, #c6c3bc);
+    background: -o-linear-gradient(top to bottom, #f2e8d0, #c6c3bc);
+    background: -ms-linear-gradient(top to bottom, #f2e8d0, #c6c3bc);
+    background: linear-gradient(top to bottom, #f2e8d0, #c6c3bc);
+}
+
+h1.home_page_slogan
+{
+    color: darkslategray;
+    text-align: center;
+}
