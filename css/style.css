@@ -360,6 +360,7 @@ iframe.article
 /*          Blog Page                        */
 /*********************************************/
 
+
 .blog .column-left
 {
     width:30%;
@@ -393,7 +394,6 @@ iframe.article
 .blog ol li:hover
 {
     background-color: #ede7de;
-    margin-left: -20px;
 }
 
 .blog ol.blog
@@ -423,6 +423,37 @@ iframe.article
 .blog h3
 {
     height: 80px;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .blog .column-left img 
+    {
+        width: 320px;
+        margin-left: -50%;
+    }
+
+    .blog .column-right
+    {
+        width: 150%;
+        margin-left: -14%;
+    }
+
+    p.blog_description
+    {
+        font-size: smaller;
+    }
+
+    a.blog
+    {
+        font-size: larger;
+        margin-left: 0%;
+    }
+
+    .blog ol li:hover
+    {
+        background-color: #f6f3ee;
+    }
 }
 
 /*******************************************/
