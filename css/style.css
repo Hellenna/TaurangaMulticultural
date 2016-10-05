@@ -177,16 +177,13 @@ li.recent_publications
 {
     width: 14%;
     float: left;
-
     margin-left: 5%;
     margin-right: 5%;
 }
 
 ul.recent_publications
 {
-    display: inline;
-
-    
+    display: inline;    
 }
 
 
@@ -221,7 +218,7 @@ input.subscribe
     margin-left: 15%;
 }
 
-button.subscribe
+button
 {
     display: inline-block;
     padding: 15px 25px;
@@ -241,13 +238,23 @@ button.subscribe
     margin-bottom: 8%;
 }
 
-button.subscribe:hover {background-color: #3e8e41}
+button:hover {background-color: #3e8e41}
 
-button.subscribe:active 
+button:active 
 {
   background-color: #3e8e41;
   box-shadow: 0 5px #331f00;
   transform: translateY(4px);
+}
+
+@media only screen and (max-width: 500px)
+{
+    button
+    {
+        width: 96%;
+        margin-left: 2%;
+        margin-bottom: 80px;
+    }
 }
 
 /*********************************************/
@@ -418,3 +425,53 @@ iframe.article
     height: 80px;
 }
 
+/*******************************************/
+/*              Contact page               */
+/*******************************************/
+
+input.contact
+{
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
+    margin-left: 15%;
+}
+
+.typein-text
+{
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 300px 40px;
+
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 500px)
+{
+    input.contact
+    {
+        width: 96%;  
+        margin-left: 2%;
+    }
+
+    .typein-text
+    {
+        width: 96%;  
+        margin-left: 2%;
+        margin-bottom: 15px;
+    }
+}
