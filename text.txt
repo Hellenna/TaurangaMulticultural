@@ -12,3 +12,4 @@ Wireframes Changes
 There is no on the website: 
 * Categories on Blog page.
 * Search field is not on the menu bar in mobile layout.
+* There is no comments field on the Article page.

@@ -81,7 +81,7 @@ nav h1
     li.menu
     {
         margin-top: -65px;
-        width: 110px;
+        width: 26%;
     }
 
     nav h1 
@@ -93,7 +93,7 @@ nav h1
         nav img 
     {
         height: 72px;
-        margin-left: 20px;
+        margin-left: 2%;
     }
 }
 
@@ -140,6 +140,14 @@ form
     margin-bottom: 48px;
     background-color: #fcfafb;
     height: 150px;
+}
+
+@media only screen and (max-width: 500px )
+{
+    form
+    {
+        height: 90px;
+    }
 }
 
 /**********************************/
@@ -208,7 +216,7 @@ p
 {
     width: 400px;
     height: 300px;
-    margin-left: -55%;
+    margin-left: -80%;
 }
 
 li.recent_publications
@@ -234,7 +242,7 @@ ul.recent_publications
 
 .article-name a
 {    
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: x-large;
     color: darkslategray;
 }
@@ -243,13 +251,20 @@ ul.recent_publications
 {
     li.recent_publications
     {
-        width: 130%;
-        margin-left: 375px;
+        width: 100%;
+        margin-left: 58%;
     }
 
     .article-name
     {
         margin-left: -43%;
+    }
+
+    .article-picture img
+    {
+        width: 350px;
+        height: 250px;
+        margin-left: -50%;
     }
 }
 
@@ -318,6 +333,7 @@ button:active
     {
         width: 96%;
         margin-left: 2%;
+        margin-top: 20%;
         margin-bottom: 130px;
     }
 
@@ -599,7 +615,7 @@ iframe.article
     .blog .column-left img 
     {
         width: 320px;
-        margin-left: -12%;
+        margin-left: -22%;
     }
 
     .blog .column-right
