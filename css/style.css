@@ -75,9 +75,9 @@ nav h1
     color: papayawhip;
 }
 
-/************************/
-/*   Body of the page   */
-/************************/
+/********************************************/
+/*            Body of the page              */
+/********************************************/
 
 body 
 {
@@ -158,35 +158,77 @@ p
     line-height: 1.5em; 
 }
 
+@media only screen and (max-width: 500px)
+{
+    .homepage_text h3
+    {
+        margin-top: 0px;        
+    }
+
+    p.text_homepage
+    {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
 /****************************************/
 
 .recent_publications
 {
     background-color: #fcfafb;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
-img.recent_publications
+
+.article-picture img
 {
-    width: 300px;
-    height: 260px;
-    padding: 25px;
-    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+    margin-left: -55%;
 }
 
 li.recent_publications
 {
-    width: 14%;
+    width: 5%;
     float: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 360px;
 }
 
 ul.recent_publications
 {
-    display: inline;    
+    display: inline;   
+    list-style-type: none; 
 }
 
+.article-name
+{
+    width: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
 
+.article-name a
+{    
+    font-family: sans-serif;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+@media only screen and (max-width: 500px)
+{
+    li.recent_publications
+    {
+        width: 130%;
+    }
+
+    .article-name
+    {
+        margin-left: -43%;
+    }
+}
 
 /**************************************/
 /*          Newsletter                */
@@ -214,7 +256,7 @@ input.subscribe
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
-
+    border-radius: 14px;
     margin-left: 15%;
 }
 
@@ -253,7 +295,25 @@ button:active
     {
         width: 96%;
         margin-left: 2%;
-        margin-bottom: 80px;
+        margin-bottom: 130px;
+    }
+
+    form.newsletter
+    {
+        margin-top: 7%;
+        margin-bottom: -12%;
+    }
+
+    h3.newsletter
+    {
+        height: 120px;
+    }
+
+    input.subscribe
+    {
+        width: 96%;  
+        margin-left: 2%;
+        padding: 12px 20px 25px 40px;
     }
 }
 
@@ -266,7 +326,37 @@ button:active
     background-color: #331f00;
     text-align: center;
     color: papayawhip;
-    height: 100px;
+    height: 160px;
+}
+
+.footer img
+{
+    width: 15%;
+    margin-top: 10px;
+}
+
+.footer a 
+{
+    color: papayawhip;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+
+.footer h5
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .footer img
+    {
+        width: 50%;
+    }
 }
 
 
@@ -430,7 +520,7 @@ iframe.article
     .blog .column-left img 
     {
         width: 320px;
-        margin-left: -50%;
+        margin-left: -12%;
     }
 
     .blog .column-right
