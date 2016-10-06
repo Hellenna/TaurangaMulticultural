@@ -1,0 +1,14 @@
+
+Referencies 
+
+img1.png - http://www.trmc.co.nz/uploads/4/1/9/2/41922225/1468906027.png
+img2.jpg - http://3.bp.blogspot.com/-E-jWVCEixNs/VWY6FJdISeI/AAAAAAAAAMM/aIgSHP45Ac0/s1600/hello-in-other-languages.jpg
+img4.jpg - https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-bGXLlFZPkE6rYQ89Lha5XghzQVRIuNdQY4-97w-xImg9vG4M
+img5.jpg - http://warrenctlibrary.org/images/facebook_icon.png
+
+
+Wireframes Changes
+
+There is no on the website: 
+* Categories on Blog page.
+* Search field is not on the menu bar in mobile layout.

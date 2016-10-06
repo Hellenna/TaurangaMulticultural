@@ -21,6 +21,7 @@ nav ul
 li.menu 
 {
     float: right;
+
 }
 
 li.leftcol
@@ -73,6 +74,27 @@ nav h1
 {
     margin: 19px;
     color: papayawhip;
+}
+
+@media only screen and (max-width: 500px)
+{
+    li.menu
+    {
+        margin-top: -65px;
+        width: 110px;
+    }
+
+    nav h1 
+    {
+        margin: 19px;
+        color: #739900;
+    }
+
+        nav img 
+    {
+        height: 72px;
+        margin-left: 20px;
+    }
 }
 
 /********************************************/
@@ -222,6 +244,7 @@ ul.recent_publications
     li.recent_publications
     {
         width: 130%;
+        margin-left: 375px;
     }
 
     .article-name
@@ -326,7 +349,7 @@ button:active
     background-color: #331f00;
     text-align: center;
     color: papayawhip;
-    height: 160px;
+    height: 200px;
 }
 
 .footer img
@@ -340,7 +363,7 @@ button:active
     color: papayawhip;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: smaller;
+    font-size: large;
 }
 
 .footer h5
@@ -357,6 +380,11 @@ button:active
     {
         width: 50%;
     }
+
+    .footer a
+    {
+        font-size: smaller;
+    }
 }
 
 
@@ -367,6 +395,7 @@ button:active
 .about
 {
     text-align: center;
+    margin-bottom: 20%;
 }
 
 p.about
@@ -375,6 +404,19 @@ p.about
     margin-right: 15%;
     margin-bottom: 100px;
     text-align: justify;
+}
+
+.signature
+{
+    margin-top: -60px;
+    float: right;
+    margin-right: 25%
+}
+
+.signature p
+{
+    font-family: cursive;
+    font-size: x-large;
 }
 
 img.about 
@@ -386,6 +428,17 @@ img.about
 
 @media only screen and (max-width: 500px)
 {
+    .about
+    {
+     margin-bottom: 60%;
+    }
+
+    .signature p
+    {
+        font-size: large;
+        margin-left: 50%;
+    }
+
     img.about
     {
         margin: 0px 5% 20px 5%;
@@ -404,6 +457,20 @@ img.about
 /*********************************************/
 /*          Article Page                    */
 /********************************************/
+
+.signature_article
+{
+    width: 70%;
+    margin-top: -15px;
+    float: left;
+    margin-left: 18%;    
+}
+
+.signature_article p
+{
+    font-family: cursive;
+    font-size: medium;
+}
 
 .article
 {
@@ -426,9 +493,14 @@ iframe.article
 
 @media only screen and (max-width: 500px )
 {
+    .article
+    {
+        margin-bottom: 100px;
+    }
+
     h3.article
         {
-            margin: 40px 15px 20px 15px;
+            margin: 90px 15px 20px 15px;
         }
 
     p.article
@@ -443,6 +515,13 @@ iframe.article
             width: 90%;
             height: 100%;
             margin: 0px 5% 50px 5%;
+        }
+
+        .signature_article
+        {
+            margin-left: 14%;
+            margin-top: 25px;
+            margin-bottom: 10px; 
         }
 }
 
